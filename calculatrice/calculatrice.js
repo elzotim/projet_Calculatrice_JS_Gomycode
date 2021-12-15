@@ -4,7 +4,7 @@ var rerupHis =()=>{
 var AfficheHis =(num)=>{
    document.getElementById("valeur").innerText=(num)
 }
-
+AfficheHis(9*9)
 var rerupoutput =()=>{
     return document.getElementById("valeur_output").innerText
 }
@@ -23,7 +23,7 @@ getFrormatendNumber=(num)=>{
     var value=n.toLocaleString("fr")
     return value
 }
-Afficheoutput("122555511111")
+Afficheoutput("81")
 var renversenumeroFormat=()=>{
     
 }
